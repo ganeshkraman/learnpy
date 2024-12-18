@@ -1,5 +1,7 @@
 #generate fibonacci series upto 10
-a,b=0,1
+a = 0
+b = 1
 for i in range(10):
     print(a)
-    a,b=b,a+b
+    a = b
+    b = a+b
